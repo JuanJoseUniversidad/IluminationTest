@@ -8,7 +8,7 @@ public class RubyController : MonoBehaviour
     void Start()
     {
     }
-//Hola marc
+
     // Update is called once per frame
     void Update()
     {
