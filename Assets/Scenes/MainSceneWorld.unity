@@ -7945,6 +7945,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruby
       objectReference: {fileID: 0}
+    - target: {fileID: 9193464757292511475, guid: 03cf55306a310d840a594eda752f985e, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 03cf55306a310d840a594eda752f985e, type: 3}
 --- !u!1 &1730709963
