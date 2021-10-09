@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 9193464757292511373}
   - component: {fileID: 6722444396209225651}
   - component: {fileID: 173809253542971378}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: ruby
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 9193464757292511474}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -73,7 +73,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 8080cfb66e35f7c409c977ac004a1878, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -100,6 +100,7 @@ MonoBehaviour:
   speed: 3
   maxHealth: 5
   timeInvincible: 2
+  projectilePrefab: {fileID: 4521993691416490587, guid: 4e2930024e951c44292eeca2902b39c5, type: 3}
 --- !u!50 &6722444396209225651
 Rigidbody2D:
   serializedVersion: 4

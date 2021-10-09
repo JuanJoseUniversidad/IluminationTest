@@ -19,6 +19,9 @@ public class RubyController : MonoBehaviour
     float horizontal;
     float vertical;
 	Vector2 lookDirection = new Vector2(1,0);
+	
+	public GameObject projectilePrefab;
+	Animator animator;
     
     // Start is called before the first frame update
     void Start()
@@ -47,7 +50,7 @@ public class RubyController : MonoBehaviour
             lookDirection.Normalize();
         }
 		
-		if(Input.GetKeyDown("Fire1"))
+		if(Input.GetKeyDown(KeyCode.C))
 		{
 			Launch();
 		}

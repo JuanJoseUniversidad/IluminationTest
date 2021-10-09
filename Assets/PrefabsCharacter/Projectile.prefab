@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 5656897295762233535}
   - component: {fileID: 5991451440668418013}
   - component: {fileID: 2233366659601396516}
-  m_Layer: 0
-  m_Name: CogBullet
+  - component: {fileID: -3802762932037590298}
+  m_Layer: 8
+  m_Name: Projectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -130,4 +131,16 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
+--- !u!114 &-3802762932037590298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4521993691416490587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 933af83880ee73145b6ae4bc05ada6e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
