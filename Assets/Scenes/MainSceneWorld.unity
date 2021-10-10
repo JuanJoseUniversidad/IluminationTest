@@ -8430,10 +8430,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1447155840496511654, guid: 809f9c2a665aed0409c980d7d17f40e1, type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4915197347104724046, guid: 809f9c2a665aed0409c980d7d17f40e1, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -8481,18 +8477,6 @@ PrefabInstance:
     - target: {fileID: 7638065798452907882, guid: 809f9c2a665aed0409c980d7d17f40e1, type: 3}
       propertyPath: m_Name
       value: jambi
-      objectReference: {fileID: 0}
-    - target: {fileID: 7638065798452907882, guid: 809f9c2a665aed0409c980d7d17f40e1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 8117378164561843398, guid: 809f9c2a665aed0409c980d7d17f40e1, type: 3}
-      propertyPath: m_Size.y
-      value: 1.6090506
-      objectReference: {fileID: 0}
-    - target: {fileID: 8117378164561843398, guid: 809f9c2a665aed0409c980d7d17f40e1, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.87081
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 809f9c2a665aed0409c980d7d17f40e1, type: 3}
