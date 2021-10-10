@@ -19,6 +19,7 @@ public class RubyController : MonoBehaviour
     float horizontal;
     float vertical;
 	Vector2 lookDirection = new Vector2(1,0);
+
 	
 	public GameObject projectilePrefab;
 	Animator animator;
@@ -28,6 +29,7 @@ public class RubyController : MonoBehaviour
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
+		animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -49,6 +51,9 @@ public class RubyController : MonoBehaviour
             lookDirection.Set(move.x, move.y);
             lookDirection.Normalize();
         }
+		animator.SetFloat("Look X", lookDirection.x);
+		animator.SetFloat("Look Y", lookDirection.y);
+		animator.SetFloat("Speed", move.magnitude);
 		
 		if(Input.GetKeyDown(KeyCode.C))
 		{
